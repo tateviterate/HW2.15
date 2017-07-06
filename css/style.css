@@ -1,0 +1,51 @@
+	.container{
+		width: 80%;
+		padding: 20px 0;
+	}
+	.blue{
+		background: blue;
+		height: 100px;
+		margin-bottom: 15px;
+	}
+	.yellow{
+		height: 160px;
+		background: yellow;
+		margin-bottom: 20px;
+	}
+	.green, .light-gr, .orange{
+		height: 160px;
+		margin-bottom: 20px;
+	}
+	.green{
+		background: green;
+	}
+	.light-gr{
+		background: #b1f29d;
+	}
+	.orange{
+		background: orange;
+	}
+	.grey{
+		background: grey;
+		height: 70px;
+	}
+
+/*Mobole Version*/
+
+@media screen and (max-width: 760px) {
+
+	.container{
+		width: 90%;
+		max-width: 100%;
+	}
+	.blue{
+		height: 70px;
+	}
+	.yellow{
+		height: 100px;
+	}
+	.grey{
+		height: 50px;
+	}
+
+}
